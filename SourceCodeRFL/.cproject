@@ -52,11 +52,11 @@
 									<listOptionValue builtIn="false" value="../Drivers/STM32F1xx_HAL_Driver/Inc"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
-									<listOptionValue builtIn="false" value="&quot;D:\STM_Folder\TrackingLine23.11.2023\N29-11-2023\Lib_UART&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:\STM_Folder\TrackingLine23.11.2023\N29-11-2023\Lib_Controller&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:\STM_Folder\TrackingLine23.11.2023\N29-11-2023\Lib_Motor&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:\STM_Folder\TrackingLine23.11.2023\N29-11-2023\Lib_Sensor&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:\STM_Folder\TrackingLine23.11.2023\N29-11-2023\lib_HC_SR04&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Users\BaoThuan\OneDrive - The University of Technology\Desktop\GIT_Prj\SourceCodeRFL\Lib_Controller&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Users\BaoThuan\OneDrive - The University of Technology\Desktop\GIT_Prj\SourceCodeRFL\Lib_UART&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Users\BaoThuan\OneDrive - The University of Technology\Desktop\GIT_Prj\SourceCodeRFL\Lib_Sensor&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Users\BaoThuan\OneDrive - The University of Technology\Desktop\GIT_Prj\SourceCodeRFL\Lib_Motor&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Users\BaoThuan\OneDrive - The University of Technology\Desktop\GIT_Prj\SourceCodeRFL\lib_HC_SR04&quot;"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1939984112" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
 							</tool>
@@ -83,13 +83,13 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Lib_Motor"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="lib_HC_SR04"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Lib_UART"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Lib_Controller"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Lib_Sensor"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Lib_Controller"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Lib_Motor"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Lib_Sensor"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Lib_UART"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="lib_HC_SR04"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>

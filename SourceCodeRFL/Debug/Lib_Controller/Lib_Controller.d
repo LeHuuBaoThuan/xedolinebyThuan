@@ -1,6 +1,6 @@
 Lib_Controller/Lib_Controller.o: \
- D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_Controller/Lib_Controller.c \
- D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_Controller/Lib_Controller.h \
+ C:/Users/BaoThuan/OneDrive\ -\ The\ University\ of\ Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_Controller/Lib_Controller.c \
+ C:/Users/BaoThuan/OneDrive\ -\ The\ University\ of\ Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_Controller/Lib_Controller.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
  ../Core/Inc/stm32f1xx_hal_conf.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
@@ -28,10 +28,10 @@ Lib_Controller/Lib_Controller.o: \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
- D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_Motor/lib_motor.h \
- D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_Sensor/Lib_Sensor.h \
- D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_UART/lib_uart.h
-D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_Controller/Lib_Controller.h:
+ C:/Users/BaoThuan/OneDrive\ -\ The\ University\ of\ Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_Motor/lib_motor.h \
+ C:/Users/BaoThuan/OneDrive\ -\ The\ University\ of\ Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_Sensor/Lib_Sensor.h \
+ C:/Users/BaoThuan/OneDrive\ -\ The\ University\ of\ Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_UART/lib_uart.h
+C:/Users/BaoThuan/OneDrive\ -\ The\ University\ of\ Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_Controller/Lib_Controller.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
 ../Core/Inc/stm32f1xx_hal_conf.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:
@@ -59,6 +59,6 @@ D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_Controller/Lib_Controller.h
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:
-D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_Motor/lib_motor.h:
-D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_Sensor/Lib_Sensor.h:
-D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_UART/lib_uart.h:
+C:/Users/BaoThuan/OneDrive\ -\ The\ University\ of\ Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_Motor/lib_motor.h:
+C:/Users/BaoThuan/OneDrive\ -\ The\ University\ of\ Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_Sensor/Lib_Sensor.h:
+C:/Users/BaoThuan/OneDrive\ -\ The\ University\ of\ Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_UART/lib_uart.h:

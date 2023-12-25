@@ -1,5 +1,5 @@
 lib_HC_SR04/HC_SR04.o: \
- D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/lib_HC_SR04/HC_SR04.c \
+ C:/Users/BaoThuan/OneDrive\ -\ The\ University\ of\ Technology/Desktop/GIT_Prj/SourceCodeRFL/lib_HC_SR04/HC_SR04.c \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
  ../Core/Inc/stm32f1xx_hal_conf.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
@@ -27,7 +27,7 @@ lib_HC_SR04/HC_SR04.o: \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
- D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/lib_HC_SR04/HC_SR04.h
+ C:/Users/BaoThuan/OneDrive\ -\ The\ University\ of\ Technology/Desktop/GIT_Prj/SourceCodeRFL/lib_HC_SR04/HC_SR04.h
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
 ../Core/Inc/stm32f1xx_hal_conf.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:
@@ -55,4 +55,4 @@ lib_HC_SR04/HC_SR04.o: \
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:
-D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/lib_HC_SR04/HC_SR04.h:
+C:/Users/BaoThuan/OneDrive\ -\ The\ University\ of\ Technology/Desktop/GIT_Prj/SourceCodeRFL/lib_HC_SR04/HC_SR04.h:

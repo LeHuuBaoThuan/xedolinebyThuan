@@ -33,27 +33,27 @@
 		<link>
 			<name>Lib_Controller</name>
 			<type>2</type>
-			<location>D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_Controller</location>
+			<location>C:/Users/BaoThuan/OneDrive - The University of Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_Controller</location>
 		</link>
 		<link>
 			<name>Lib_Motor</name>
 			<type>2</type>
-			<location>D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_Motor</location>
+			<location>C:/Users/BaoThuan/OneDrive - The University of Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_Motor</location>
 		</link>
 		<link>
 			<name>Lib_Sensor</name>
 			<type>2</type>
-			<location>D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_Sensor</location>
+			<location>C:/Users/BaoThuan/OneDrive - The University of Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_Sensor</location>
 		</link>
 		<link>
 			<name>Lib_UART</name>
 			<type>2</type>
-			<location>D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_UART</location>
+			<location>C:/Users/BaoThuan/OneDrive - The University of Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_UART</location>
 		</link>
 		<link>
 			<name>lib_HC_SR04</name>
 			<type>2</type>
-			<location>D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/lib_HC_SR04</location>
+			<location>C:/Users/BaoThuan/OneDrive - The University of Technology/Desktop/GIT_Prj/SourceCodeRFL/lib_HC_SR04</location>
 		</link>
 	</linkedResources>
 </projectDescription>

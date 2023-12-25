@@ -26,11 +26,11 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
- D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_Sensor/Lib_Sensor.h \
- D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_UART/lib_uart.h \
- D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_Controller/Lib_Controller.h \
- D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_Motor/lib_motor.h \
- D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/lib_HC_SR04/HC_SR04.h
+ C:/Users/BaoThuan/OneDrive\ -\ The\ University\ of\ Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_Sensor/Lib_Sensor.h \
+ C:/Users/BaoThuan/OneDrive\ -\ The\ University\ of\ Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_UART/lib_uart.h \
+ C:/Users/BaoThuan/OneDrive\ -\ The\ University\ of\ Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_Controller/Lib_Controller.h \
+ C:/Users/BaoThuan/OneDrive\ -\ The\ University\ of\ Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_Motor/lib_motor.h \
+ C:/Users/BaoThuan/OneDrive\ -\ The\ University\ of\ Technology/Desktop/GIT_Prj/SourceCodeRFL/lib_HC_SR04/HC_SR04.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
 ../Core/Inc/stm32f1xx_hal_conf.h:
@@ -59,8 +59,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:
-D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_Sensor/Lib_Sensor.h:
-D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_UART/lib_uart.h:
-D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_Controller/Lib_Controller.h:
-D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_Motor/lib_motor.h:
-D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/lib_HC_SR04/HC_SR04.h:
+C:/Users/BaoThuan/OneDrive\ -\ The\ University\ of\ Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_Sensor/Lib_Sensor.h:
+C:/Users/BaoThuan/OneDrive\ -\ The\ University\ of\ Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_UART/lib_uart.h:
+C:/Users/BaoThuan/OneDrive\ -\ The\ University\ of\ Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_Controller/Lib_Controller.h:
+C:/Users/BaoThuan/OneDrive\ -\ The\ University\ of\ Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_Motor/lib_motor.h:
+C:/Users/BaoThuan/OneDrive\ -\ The\ University\ of\ Technology/Desktop/GIT_Prj/SourceCodeRFL/lib_HC_SR04/HC_SR04.h:

@@ -5229,31 +5229,31 @@ LOAD c:/users/baothuan/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube
  .debug_macro   0x0000000000019bb0      0x377 ./Lib_UART/lib_uart.o
  .debug_macro   0x0000000000019f27      0x1cd ./lib_HC_SR04/HC_SR04.o
 
-.debug_line     0x0000000000000000    0x13745
- .debug_line    0x0000000000000000      0xdb1 ./Core/Src/main.o
- .debug_line    0x0000000000000db1      0x83f ./Core/Src/stm32f1xx_hal_msp.o
- .debug_line    0x00000000000015f0      0x7e5 ./Core/Src/stm32f1xx_it.o
- .debug_line    0x0000000000001dd5      0x83a ./Core/Src/syscalls.o
- .debug_line    0x000000000000260f      0x530 ./Core/Src/sysmem.o
- .debug_line    0x0000000000002b3f      0x759 ./Core/Src/system_stm32f1xx.o
- .debug_line    0x0000000000003298       0x86 ./Core/Startup/startup_stm32f103c8tx.o
- .debug_line    0x000000000000331e      0x986 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
- .debug_line    0x0000000000003ca4     0x100b ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.o
- .debug_line    0x0000000000004caf      0xb6e ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
- .debug_line    0x000000000000581d      0xddf ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
- .debug_line    0x00000000000065fc      0xa1f ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
- .debug_line    0x000000000000701b      0xd92 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
- .debug_line    0x0000000000007dad      0x8cd ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o
- .debug_line    0x000000000000867a     0x3411 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
- .debug_line    0x000000000000ba8b     0x18dc ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
- .debug_line    0x000000000000d367     0x28b7 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o
- .debug_line    0x000000000000fc1e      0xb35 ./Lib_Controller/Lib_Controller.o
- .debug_line    0x0000000000010753      0xcdd ./Lib_Motor/lib_motor.o
- .debug_line    0x0000000000011430      0xefc ./Lib_Sensor/Lib_Sensor.o
- .debug_line    0x000000000001232c      0xc77 ./Lib_UART/lib_uart.o
- .debug_line    0x0000000000012fa3      0x7a2 ./lib_HC_SR04/HC_SR04.o
+.debug_line     0x0000000000000000    0x13a9f
+ .debug_line    0x0000000000000000      0xe74 ./Core/Src/main.o
+ .debug_line    0x0000000000000e74      0x83f ./Core/Src/stm32f1xx_hal_msp.o
+ .debug_line    0x00000000000016b3      0x7e5 ./Core/Src/stm32f1xx_it.o
+ .debug_line    0x0000000000001e98      0x83a ./Core/Src/syscalls.o
+ .debug_line    0x00000000000026d2      0x530 ./Core/Src/sysmem.o
+ .debug_line    0x0000000000002c02      0x759 ./Core/Src/system_stm32f1xx.o
+ .debug_line    0x000000000000335b       0x86 ./Core/Startup/startup_stm32f103c8tx.o
+ .debug_line    0x00000000000033e1      0x986 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_line    0x0000000000003d67     0x100b ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.o
+ .debug_line    0x0000000000004d72      0xb6e ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_line    0x00000000000058e0      0xddf ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
+ .debug_line    0x00000000000066bf      0xa1f ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_line    0x00000000000070de      0xd92 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .debug_line    0x0000000000007e70      0x8cd ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o
+ .debug_line    0x000000000000873d     0x3411 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
+ .debug_line    0x000000000000bb4e     0x18dc ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
+ .debug_line    0x000000000000d42a     0x28b7 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o
+ .debug_line    0x000000000000fce1      0xbd1 ./Lib_Controller/Lib_Controller.o
+ .debug_line    0x00000000000108b2      0xd79 ./Lib_Motor/lib_motor.o
+ .debug_line    0x000000000001162b      0xf98 ./Lib_Sensor/Lib_Sensor.o
+ .debug_line    0x00000000000125c3      0xd13 ./Lib_UART/lib_uart.o
+ .debug_line    0x00000000000132d6      0x7c9 ./lib_HC_SR04/HC_SR04.o
 
-.debug_str      0x0000000000000000    0x91903
+.debug_str      0x0000000000000000    0x919c6
  .debug_str     0x0000000000000000    0x8ca80 ./Core/Src/main.o
                                       0x8cef8 (size before relaxing)
  .debug_str     0x000000000008ca80      0x395 ./Core/Src/stm32f1xx_hal_msp.o
@@ -5288,16 +5288,16 @@ LOAD c:/users/baothuan/stm32cubeide_1.12.1/stm32cubeide/plugins/com.st.stm32cube
                                       0x88b98 (size before relaxing)
  .debug_str     0x0000000000090a1d      0x5d7 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o
                                       0x889fb (size before relaxing)
- .debug_str     0x0000000000090ff4      0x167 ./Lib_Controller/Lib_Controller.o
-                                      0x8be89 (size before relaxing)
- .debug_str     0x000000000009115b      0x26a ./Lib_Motor/lib_motor.o
-                                      0x8c49f (size before relaxing)
- .debug_str     0x00000000000913c5      0x2c3 ./Lib_Sensor/Lib_Sensor.o
-                                      0x8c46b (size before relaxing)
- .debug_str     0x0000000000091688      0x1f0 ./Lib_UART/lib_uart.o
-                                      0x8c437 (size before relaxing)
- .debug_str     0x0000000000091878       0x8b ./lib_HC_SR04/HC_SR04.o
-                                      0x884bd (size before relaxing)
+ .debug_str     0x0000000000090ff4      0x18e ./Lib_Controller/Lib_Controller.o
+                                      0x8beb0 (size before relaxing)
+ .debug_str     0x0000000000091182      0x291 ./Lib_Motor/lib_motor.o
+                                      0x8c4c6 (size before relaxing)
+ .debug_str     0x0000000000091413      0x2ea ./Lib_Sensor/Lib_Sensor.o
+                                      0x8c492 (size before relaxing)
+ .debug_str     0x00000000000916fd      0x217 ./Lib_UART/lib_uart.o
+                                      0x8c45e (size before relaxing)
+ .debug_str     0x0000000000091914       0xb2 ./lib_HC_SR04/HC_SR04.o
+                                      0x884e4 (size before relaxing)
 
 .comment        0x0000000000000000       0x50
  .comment       0x0000000000000000       0x50 ./Core/Src/main.o
