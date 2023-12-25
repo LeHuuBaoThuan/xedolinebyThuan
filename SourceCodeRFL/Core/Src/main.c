@@ -212,57 +212,53 @@ int main(void)
 	while (1)
 	{
 		/*100ms lay mau sensor HC_SR04*/
-//			if(tim3_100ms_flag == 1)
-//			{
-//				tim3_100ms_flag = 0;
-//				dis = HCSR04_GetDis(); 	/*Value dis: robot_block*/
-//			}
-//		/*Start by bluetooth*/
-//			switch(en_state_robot)
-//			{
-//				case START_ROBOT:
-//					if(tim3_1ms_flag == 1)
-//					{
-//						tim3_1ms_flag = 0;
-//						if(dis < 10 && i2 == 0)
-//						{
-//							i2 = 1;
-//							Ne_vat_can___Cua_phai(speed_Right, speed_Left, Time_Move, Time_Right, Time_Left);
-//						}
-//						else if(dis >= 10)
-//						{
-//							PID_control(kx, threshold_main_def);
-//							i2 = 0;
-//						}
-//					}
-//					break;
-//				case STOP_ROBOT:
-//					if(i == 0)
-//					{
-//						motor_move(-40, -40);
-//						HAL_Delay(500);
-//						i++;
-//					}
-//					else
-//					{
-//						motor_move(0, 0);
-//					}
-//					IC74HC595(0x00);
-//					break;
-//				case CHECK_THRESHOLD:
-//					__NOP();
-//					break;
-//				case POWER:
-//					motor_move(basespeedr, basespeedl);
-//					i = 0;
-//					break;
-//				default:
-//					break;
-//			}
-
-
-		__HAL_TIM_SET_COMPARE (&htim2, TIM_CHANNEL_2, 50);
-		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, GPIO_PIN_SET);
+			if(tim3_100ms_flag == 1)
+			{
+				tim3_100ms_flag = 0;
+				dis = HCSR04_GetDis(); 	/*Value dis: robot_block*/
+			}
+		/*Start by bluetooth*/
+			switch(en_state_robot)
+			{
+				case START_ROBOT:
+					if(tim3_1ms_flag == 1)
+					{
+						tim3_1ms_flag = 0;
+						if(dis < 10 && i2 == 0)
+						{
+							i2 = 1;
+							Ne_vat_can___Cua_phai(speed_Right, speed_Left, Time_Move, Time_Right, Time_Left);
+						}
+						else if(dis >= 10)
+						{
+							PID_control(kx, threshold_main_def);
+							i2 = 0;
+						}
+					}
+					break;
+				case STOP_ROBOT:
+					if(i == 0)
+					{
+						motor_move(-40, -40);
+						HAL_Delay(500);
+						i++;
+					}
+					else
+					{
+						motor_move(0, 0);
+					}
+					IC74HC595(0x00);
+					break;
+				case CHECK_THRESHOLD:
+					__NOP();
+					break;
+				case POWER:
+					motor_move(basespeedr, basespeedl);
+					i = 0;
+					break;
+				default:
+					break;
+			}
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
