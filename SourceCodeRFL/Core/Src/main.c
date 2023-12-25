@@ -211,6 +211,8 @@ int main(void)
   /* USER CODE BEGIN WHILE */
 	while (1)
 	{
+
+		//todolab1
 		/*100ms lay mau sensor HC_SR04*/
 //			if(tim3_100ms_flag == 1)
 //			{
