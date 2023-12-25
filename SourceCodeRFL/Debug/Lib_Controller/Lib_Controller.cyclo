@@ -1,0 +1,4 @@
+Lib_Controller.c:23:7:past_errors	2
+Lib_Controller.c:31:6:errors_sum	4
+Lib_Controller.c:44:7:PID_control	3
+Lib_Controller.c:78:7:Ne_vat_can___Cua_phai	2

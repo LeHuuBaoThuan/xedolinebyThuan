@@ -1,0 +1,4 @@
+D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_Controller/Lib_Controller.c:23:7:past_errors	24	static
+D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_Controller/Lib_Controller.c:31:6:errors_sum	24	static
+D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_Controller/Lib_Controller.c:44:7:PID_control	48	static
+D:/STM_Folder/TrackingLine23.11.2023/N29-11-2023/Lib_Controller/Lib_Controller.c:78:7:Ne_vat_can___Cua_phai	24	static
