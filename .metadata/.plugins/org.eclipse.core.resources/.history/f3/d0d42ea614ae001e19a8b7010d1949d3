@@ -1,6 +1,0 @@
-lib_uart.c:38:7:bluetooth_init_UART	1
-lib_uart.c:51:7:bluetooth_Return_parameter	2
-lib_uart.c:72:14:bluetooth_check_string_stop_start_robot	7
-lib_uart.c:110:7:bluetooth_rx_change_kx	10
-lib_uart.c:197:10:Char2Num	1
-lib_uart.c:203:7:change_line_sensor_read	4

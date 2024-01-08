@@ -1,3 +1,0 @@
-HC_SR04.c:16:6:HAL_TIM_IC_CaptureCallback	6
-HC_SR04.c:49:6:delay	2
-HC_SR04.c:54:9:HCSR04_GetDis	1
