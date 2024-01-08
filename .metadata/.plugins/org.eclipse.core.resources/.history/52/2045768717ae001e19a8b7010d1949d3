@@ -224,7 +224,16 @@ int main(void)
 					if(tim3_1ms_flag == 1)
 					{
 						tim3_1ms_flag = 0;
-						PID_control(kx, threshold_main_def);
+						if(dis < 10 && i2 == 0)
+						{
+							i2 = 1;
+							Ne_vat_can___Cua_phai(speed_Right, speed_Left, Time_Move, Time_Right, Time_Left);
+						}
+						else if(dis >= 10)
+						{
+							PID_control(kx, threshold_main_def);
+							i2 = 0;
+						}
 					}
 					break;
 				case STOP_ROBOT:

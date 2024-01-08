@@ -224,7 +224,11 @@ int main(void)
 					if(tim3_1ms_flag == 1)
 					{
 						tim3_1ms_flag = 0;
-						PID_control(kx, threshold_main_def);
+						else if(dis >= 10)
+						{
+							PID_control(kx, threshold_main_def);
+							i2 = 0;
+						}
 					}
 					break;
 				case STOP_ROBOT:
