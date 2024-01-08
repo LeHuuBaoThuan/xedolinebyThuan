@@ -1,0 +1,11 @@
+C:/Users/BaoThuan/OneDrive - The University of Technology/Desktop/PROJECT/GIT_Prj/0_Lib_RFL/application/lib_motor.c:26:7:TimerInit	24	static
+C:/Users/BaoThuan/OneDrive - The University of Technology/Desktop/PROJECT/GIT_Prj/0_Lib_RFL/application/lib_motor.c:44:7:motor_control	24	static
+C:/Users/BaoThuan/OneDrive - The University of Technology/Desktop/PROJECT/GIT_Prj/0_Lib_RFL/application/lib_motor.c:66:7:quick_turn	8	static,ignoring_inline_asm
+C:/Users/BaoThuan/OneDrive - The University of Technology/Desktop/PROJECT/GIT_Prj/0_Lib_RFL/application/lib_motor.c:147:7:forward_brake	16	static
+C:/Users/BaoThuan/OneDrive - The University of Technology/Desktop/PROJECT/GIT_Prj/0_Lib_RFL/application/lib_motor.c:168:7:motor_right_move	16	static
+C:/Users/BaoThuan/OneDrive - The University of Technology/Desktop/PROJECT/GIT_Prj/0_Lib_RFL/application/lib_motor.c:173:7:motor_right_down	16	static
+C:/Users/BaoThuan/OneDrive - The University of Technology/Desktop/PROJECT/GIT_Prj/0_Lib_RFL/application/lib_motor.c:179:7:motor_left_move	16	static
+C:/Users/BaoThuan/OneDrive - The University of Technology/Desktop/PROJECT/GIT_Prj/0_Lib_RFL/application/lib_motor.c:184:7:motor_left_down	16	static
+C:/Users/BaoThuan/OneDrive - The University of Technology/Desktop/PROJECT/GIT_Prj/0_Lib_RFL/application/lib_motor.c:190:7:motor_stop	16	static
+C:/Users/BaoThuan/OneDrive - The University of Technology/Desktop/PROJECT/GIT_Prj/0_Lib_RFL/application/lib_motor.c:197:7:motor_move	16	static
+C:/Users/BaoThuan/OneDrive - The University of Technology/Desktop/PROJECT/GIT_Prj/0_Lib_RFL/application/lib_motor.c:202:7:motor_down	16	static

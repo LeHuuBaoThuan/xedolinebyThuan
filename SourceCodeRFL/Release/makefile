@@ -10,6 +10,11 @@ RM := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include Drivers/STM32F1xx_HAL_Driver/Src/subdir.mk
+-include Drivers/Lib_RFL/lib_HC_SR04/subdir.mk
+-include Drivers/Lib_RFL/Lib_UART/subdir.mk
+-include Drivers/Lib_RFL/Lib_Sensor/subdir.mk
+-include Drivers/Lib_RFL/Lib_Motor/subdir.mk
+-include Drivers/Lib_RFL/Lib_Controller/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk
 -include objects.mk
@@ -34,34 +39,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := TestSensorFollowLine
+BUILD_ARTIFACT_NAME := TrackingLine25.12.2023
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-TestSensorFollowLine.elf \
+TrackingLine25.12.2023.elf \
 
 MAP_FILES += \
-TestSensorFollowLine.map \
+TrackingLine25.12.2023.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-TestSensorFollowLine.list \
+TrackingLine25.12.2023.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: TestSensorFollowLine.elf secondary-outputs
+main-build: TrackingLine25.12.2023.elf secondary-outputs
 
 # Tool invocations
-TestSensorFollowLine.elf TestSensorFollowLine.map: $(OBJS) $(USER_OBJS) D:\STM_Folder\TestSensorFollowLine\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "TestSensorFollowLine.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"D:\STM_Folder\TestSensorFollowLine\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TestSensorFollowLine.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+TrackingLine25.12.2023.elf TrackingLine25.12.2023.map: $(OBJS) $(USER_OBJS) C:\Users\BaoThuan\OneDrive\ -\ The\ University\ of\ Technology\Desktop\GIT_Prj\SourceCodeRFL\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "TrackingLine25.12.2023.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\BaoThuan\OneDrive - The University of Technology\Desktop\GIT_Prj\SourceCodeRFL\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TrackingLine25.12.2023.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -70,14 +75,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-TestSensorFollowLine.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "TestSensorFollowLine.list"
+TrackingLine25.12.2023.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "TrackingLine25.12.2023.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) TestSensorFollowLine.elf TestSensorFollowLine.list TestSensorFollowLine.map default.size.stdout
+	-$(RM) TrackingLine25.12.2023.elf TrackingLine25.12.2023.list TrackingLine25.12.2023.map default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)

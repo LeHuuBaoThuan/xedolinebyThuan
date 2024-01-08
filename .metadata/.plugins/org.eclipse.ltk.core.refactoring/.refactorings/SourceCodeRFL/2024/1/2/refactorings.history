@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SourceCodeRFL/TrackingLine25.12.2023.ioc&apos; to &apos;SourceCodeRFL.ioc&apos;" description="Rename resource &apos;TrackingLine25.12.2023.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="TrackingLine25.12.2023.ioc" name="SourceCodeRFL.ioc" stamp="1704711391380" updateReferences="true"/>
+</session>

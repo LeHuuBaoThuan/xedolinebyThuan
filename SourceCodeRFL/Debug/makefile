@@ -9,11 +9,7 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
--include lib_HC_SR04/subdir.mk
--include Lib_UART/subdir.mk
--include Lib_Sensor/subdir.mk
--include Lib_Motor/subdir.mk
--include Lib_Controller/subdir.mk
+-include application/subdir.mk
 -include Drivers/STM32F1xx_HAL_Driver/Src/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk
@@ -39,34 +35,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := TrackingLine25.12.2023
+BUILD_ARTIFACT_NAME := SourceCodeRFL
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-TrackingLine25.12.2023.elf \
+SourceCodeRFL.elf \
 
 MAP_FILES += \
-TrackingLine25.12.2023.map \
+SourceCodeRFL.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-TrackingLine25.12.2023.list \
+SourceCodeRFL.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: TrackingLine25.12.2023.elf secondary-outputs
+main-build: SourceCodeRFL.elf secondary-outputs
 
 # Tool invocations
-TrackingLine25.12.2023.elf TrackingLine25.12.2023.map: $(OBJS) $(USER_OBJS) C:\Users\BaoThuan\OneDrive\ -\ The\ University\ of\ Technology\Desktop\GIT_Prj\SourceCodeRFL\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "TrackingLine25.12.2023.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\BaoThuan\OneDrive - The University of Technology\Desktop\GIT_Prj\SourceCodeRFL\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TrackingLine25.12.2023.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+SourceCodeRFL.elf SourceCodeRFL.map: $(OBJS) $(USER_OBJS) C:\Users\BaoThuan\OneDrive\ -\ The\ University\ of\ Technology\Desktop\PROJECT\GIT_Prj\SourceCodeRFL\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "SourceCodeRFL.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\BaoThuan\OneDrive - The University of Technology\Desktop\PROJECT\GIT_Prj\SourceCodeRFL\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SourceCodeRFL.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -75,14 +71,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-TrackingLine25.12.2023.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "TrackingLine25.12.2023.list"
+SourceCodeRFL.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "SourceCodeRFL.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) TrackingLine25.12.2023.elf TrackingLine25.12.2023.list TrackingLine25.12.2023.map default.size.stdout
+	-$(RM) SourceCodeRFL.elf SourceCodeRFL.list SourceCodeRFL.map default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)

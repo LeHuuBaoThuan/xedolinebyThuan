@@ -24,5 +24,10 @@ C_DEPS :=
 SUBDIRS := \
 Core/Src \
 Core/Startup \
+Drivers/Lib_RFL/Lib_Controller \
+Drivers/Lib_RFL/Lib_Motor \
+Drivers/Lib_RFL/Lib_Sensor \
+Drivers/Lib_RFL/Lib_UART \
+Drivers/Lib_RFL/lib_HC_SR04 \
 Drivers/STM32F1xx_HAL_Driver/Src \
 

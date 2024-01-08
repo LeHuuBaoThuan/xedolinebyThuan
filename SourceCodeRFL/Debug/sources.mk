@@ -25,9 +25,5 @@ SUBDIRS := \
 Core/Src \
 Core/Startup \
 Drivers/STM32F1xx_HAL_Driver/Src \
-Lib_Controller \
-Lib_Motor \
-Lib_Sensor \
-Lib_UART \
-lib_HC_SR04 \
+application \
 

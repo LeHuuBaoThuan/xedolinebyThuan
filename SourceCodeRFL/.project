@@ -31,29 +31,14 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>Lib_Controller</name>
+			<name>application</name>
 			<type>2</type>
-			<location>C:/Users/BaoThuan/OneDrive - The University of Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_Controller</location>
+			<location>C:/Users/BaoThuan/OneDrive - The University of Technology/Desktop/PROJECT/GIT_Prj/0_Lib_RFL/application</location>
 		</link>
 		<link>
-			<name>Lib_Motor</name>
+			<name>include</name>
 			<type>2</type>
-			<location>C:/Users/BaoThuan/OneDrive - The University of Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_Motor</location>
-		</link>
-		<link>
-			<name>Lib_Sensor</name>
-			<type>2</type>
-			<location>C:/Users/BaoThuan/OneDrive - The University of Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_Sensor</location>
-		</link>
-		<link>
-			<name>Lib_UART</name>
-			<type>2</type>
-			<location>C:/Users/BaoThuan/OneDrive - The University of Technology/Desktop/GIT_Prj/SourceCodeRFL/Lib_UART</location>
-		</link>
-		<link>
-			<name>lib_HC_SR04</name>
-			<type>2</type>
-			<location>C:/Users/BaoThuan/OneDrive - The University of Technology/Desktop/GIT_Prj/SourceCodeRFL/lib_HC_SR04</location>
+			<location>C:/Users/BaoThuan/OneDrive - The University of Technology/Desktop/PROJECT/GIT_Prj/0_Lib_RFL/application/include</location>
 		</link>
 	</linkedResources>
 </projectDescription>

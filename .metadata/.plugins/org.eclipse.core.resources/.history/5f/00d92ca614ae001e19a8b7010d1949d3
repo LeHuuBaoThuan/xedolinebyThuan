@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (10.3-2021.10)
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+OBJS += \
+./Lib_RFL/lib_HC_SR04/HC_SR04.o 
+
+C_DEPS += \
+./Lib_RFL/lib_HC_SR04/HC_SR04.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+Lib_RFL/lib_HC_SR04/HC_SR04.o: C:/Users/BaoThuan/OneDrive\ -\ The\ University\ of\ Technology/Desktop/GIT_Prj/SourceCodeRFL/Drivers/Lib_RFL/lib_HC_SR04/HC_SR04.c Lib_RFL/lib_HC_SR04/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/BaoThuan/OneDrive - The University of Technology/Desktop/GIT_Prj/SourceCodeRFL/Drivers/Lib_RFL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfloat-abi=soft -mthumb -o "$@"
+
+clean: clean-Lib_RFL-2f-lib_HC_SR04
+
+clean-Lib_RFL-2f-lib_HC_SR04:
+	-$(RM) ./Lib_RFL/lib_HC_SR04/HC_SR04.cyclo ./Lib_RFL/lib_HC_SR04/HC_SR04.d ./Lib_RFL/lib_HC_SR04/HC_SR04.o ./Lib_RFL/lib_HC_SR04/HC_SR04.su
+
+.PHONY: clean-Lib_RFL-2f-lib_HC_SR04
+
