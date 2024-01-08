@@ -65,7 +65,12 @@ UART_HandleTypeDef huart3;
 	char rxByte = 0;
 	uint8_t rxBuffer[10]={0};
 	uint8_t rxBufferIndex = 0;
+
+	uint16_t dis = 0;
+	uint8_t i = 0;
+
 STATE_ROBOT en_state_robot = STOP_ROBOT;
+
 uint16_t ADC_Value_1Line = 0;
 /* USER CODE END PV */
 
@@ -197,11 +202,11 @@ int main(void)
 	while (1)
 	{
 		/*100ms lay mau sensor HC_SR04*/
-//			if(tim3_100ms_flag == 1)
-//			{
-//				tim3_100ms_flag = 0;
-//				dis = HCSR04_GetDis(); 	/*Value dis: robot_block*/
-//			}
+			if(tim3_100ms_flag == 1)
+			{
+				tim3_100ms_flag = 0;
+				dis = HCSR04_GetDis(); 	/*Value dis: robot_block*/
+			}
 		/*Start by bluetooth*/
 			switch(en_state_robot)
 			{

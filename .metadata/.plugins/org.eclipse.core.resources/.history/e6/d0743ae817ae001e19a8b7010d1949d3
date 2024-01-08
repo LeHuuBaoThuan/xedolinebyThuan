@@ -58,6 +58,7 @@ UART_HandleTypeDef huart3;
 
 /* USER CODE BEGIN PV */
 /*value sp PID func*/
+	uint16_t * return_value;
 	uint16_t threshold_main_def[7] = {65, 40, 40, 40, 40, 40, 40};
 	uint8_t tim3_1ms_flag = 0;
 	uint8_t tim3_100ms_flag= 0;
@@ -65,8 +66,22 @@ UART_HandleTypeDef huart3;
 	char rxByte = 0;
 	uint8_t rxBuffer[10]={0};
 	uint8_t rxBufferIndex = 0;
+
+	uint16_t dis = 0;
+	uint8_t i = 0;
+
 STATE_ROBOT en_state_robot = STOP_ROBOT;
+
 uint16_t ADC_Value_1Line = 0;
+
+
+uint8_t speed_Right = 45;
+uint8_t speed_Left 	= 45;
+uint32_t Time_Move	= 500;
+uint32_t Time_Right	= 270;
+uint32_t Time_Left	= 600;
+
+uint8_t i2 = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -197,11 +212,11 @@ int main(void)
 	while (1)
 	{
 		/*100ms lay mau sensor HC_SR04*/
-//			if(tim3_100ms_flag == 1)
-//			{
-//				tim3_100ms_flag = 0;
-//				dis = HCSR04_GetDis(); 	/*Value dis: robot_block*/
-//			}
+			if(tim3_100ms_flag == 1)
+			{
+				tim3_100ms_flag = 0;
+				dis = HCSR04_GetDis(); 	/*Value dis: robot_block*/
+			}
 		/*Start by bluetooth*/
 			switch(en_state_robot)
 			{
@@ -213,7 +228,16 @@ int main(void)
 					}
 					break;
 				case STOP_ROBOT:
-					motor_move(0, 0);
+					if(i == 0)
+					{
+						motor_move(-40, -40);
+						HAL_Delay(500);
+						i++;
+					}
+					else
+					{
+						motor_move(0, 0);
+					}
 					IC74HC595(0x00);
 					break;
 				case CHECK_THRESHOLD:
@@ -221,6 +245,7 @@ int main(void)
 					break;
 				case POWER:
 					motor_move(basespeedr, basespeedl);
+					i = 0;
 					break;
 				default:
 					break;
