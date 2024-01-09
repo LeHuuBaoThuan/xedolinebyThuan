@@ -58,16 +58,15 @@ UART_HandleTypeDef huart3;
 
 /* USER CODE BEGIN PV */
 /*value sp PID func*/
-	//                                      |       //Address       Default         Description
-	uint16_t threshold_main_def[7] 			= {65, 40, 40, 40, 40, 40, 40};
-	uint8_t tim3_1ms_flag 					= 0;
-	uint8_t tim3_100ms_flag					= 0;
+	uint16_t threshold_main_def[7] = {65, 40, 40, 40, 40, 40, 40};
+	uint8_t tim3_1ms_flag = 0;
+	uint8_t tim3_100ms_flag= 0;
 /*value sp UART*/
-	char rxByte 			                = 0;
-	uint8_t rxBuffer[10]	                ={0};
-	uint8_t rxBufferIndex 	                = 0;
-	STATE_ROBOT en_state_robot 				= STOP_ROBOT;
-uint16_t ADC_Value_1Line 					= 0;
+	char rxByte = 0;
+	uint8_t rxBuffer[10]={0};
+	uint8_t rxBufferIndex = 0;
+STATE_ROBOT en_state_robot = STOP_ROBOT;
+uint16_t ADC_Value_1Line = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/

@@ -5,14 +5,13 @@
  *      Author: BaoThuan
  */
 #include<Lib_Sensor.h>
-	//                                      |       //Address       Default
 /*extern variable*/
-	LINE_BREAKDOW last_end 					= END_MIDDLE;
-	uint16_t last_idle 						= 0;
-	uint8_t active 							= 0;
-	uint8_t flat_define_threshold 			= 0;
+	LINE_BREAKDOW last_end = END_MIDDLE;
+	uint16_t last_idle = 0;
+	uint8_t active = 0;
+	uint8_t flat_define_threshold = 0;
 	uint16_t *	ADC_get_rawValue_sensor;
-	uint16_t threshold[7] 					={};
+	uint16_t threshold[7] ={};
 /*adc init*/
 	static ADC_HandleTypeDef 				hadc_lib;
 /*74HC4051 VAL*/
